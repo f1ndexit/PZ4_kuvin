@@ -1,0 +1,14 @@
+﻿<Window x:Class="PZ4_kuvin.StackPanel_2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PZ4_kuvin"
+        mc:Ignorable="d"
+        Title="StackPanel_2" Height="300" Width="300">
+    <StackPanel Orientation="Horizontal">
+        <Button Background="Blue" MinWidth="30" Content="1" />
+        <Button Background="White" MinWidth="30" Content="2" />
+        <Button Background="Red" MinWidth="30" Content="3" />
+    </StackPanel>
+</Window>
